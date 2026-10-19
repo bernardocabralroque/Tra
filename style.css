@@ -61,6 +61,8 @@ body {
     text-align: justify;
     text-indent: 1cm;
     margin-top: 3.5mm;
+    margin-left: 7mm;
+    margin-right: 3mm;
 }
 
 mark{
@@ -69,12 +71,14 @@ mark{
 }
 
 .lista{
+    
     list-style: decimal;
     font-weight: bolder;
     margin-top: 2cm;
 }
 
 .lista li{
+    
     margin-top: 2.5mm;
     font-size: 12pt;
     font-weight: 600;
@@ -86,6 +90,7 @@ mark{
 
 .listap{
     margin-bottom: 4.5mm; 
+    
 }
 
 .pontos{  
@@ -109,7 +114,7 @@ mark{
     font-weight: 800;
 }
 .discussao h1,.conclusao h1,.referencia h1 ,.dedicatoria h1, .agradecimento h1, .resumo h1, .sumario h1, .pri, .fundamentacao h1{
-    text-align: center ;
+    text-align: left ;
     margin-top: 1.5cm;
     margin-bottom: 7mm;
     font-size: 14pt;
@@ -120,6 +125,7 @@ mark{
 .dese h2, .situacao h3,.situacao h2, .fundamentacao h2, .fundamentacao h3{
     margin-top: 5mm;
     margin-bottom: 5mm;
+    margin-left: 13mm ;
     font-size: 14pt;
     font-weight: bolder;
     text-transform: capitalize;
@@ -163,8 +169,10 @@ mark{
 
 
 
-table{
+.discussao table{
     margin-bottom: 7mm;
+    margin-left: 12mm;
+    margin-right: 7mm;
 }
 
 .dese .prim{
@@ -173,18 +181,52 @@ table{
 
 .lista_membro table{
     border: 1px double black;
+   
+    margin: 0 auto;
+    margin-top: 15mm;
  
 }
 .lista_membro table td{
     border: 2px solid black;
-    padding: 4px;
+    padding: 6px;
 }
 
 .lista_membro table th{
     border: 2px solid black;
     padding: 4px;
+   
 }
 
 .lista_membro caption{
     border: 2px solid black;
+    margin-bottom: 20mm;
+   padding: 4px;
+   width: 570px;
+   font-weight: bolder;
+}
+
+.number{
+    font-size: 14pt;
+    text-align: center;
+    font-weight: 900;
+}
+
+li{
+    margin-left: 12mm;
+    margin-right: 7mm;
+}
+
+.referencia li{
+    margin-bottom: 5mm;
+}
+
+.referencia ul{
+    margin-top: 14mm;
+}
+
+.pontoss{
+    font-size: 28pt;
+    margin-left: 4mm;
+    
+    
 }
